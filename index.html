@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Conversor de Bases Numéricas</title>
+</head>
+
+<body>
+
+    <main class="main-content">
+
+        <h1>Conversor de Bases Numéricas</h1>
+
+        <section class="selecao">
+            <label for="conversao">
+                Qual a base do número dado?
+                <br>
+                <select name="conversao" id="conversao">
+                    <option value="decimal" selected>Decimal</option>
+                    <option value="binario">Binario</option>
+                    <option value="octal">Octal</option>
+                    <option value="hexa">Hexadecimal</option>
+                </select>
+            </label>
+
+
+            <label for="resultado">
+                <br>
+                Para qual base deseja converter?
+                <br>
+                <select name="resultado" id="resultado">
+                    <option value="decimal">Decimal</option>
+                    <option value="binario" selected>Binario</option>
+                    <option value="octal">Octal</option>
+                    <option value="hexa">Hexadecimal</option>
+                </select>
+            </label>
+        </section>
+
+
+
+        <label for="entrada">
+            Insira um número
+            <br>
+            <input type="text" id="entrada" name="entrada">
+        </label>
+
+        <label for="result">
+            Resultado
+            <br>
+            <input type="text" id="result" name="result">
+        </label>
+
+        <button class="btn-conv">Converter</button>
+        <button class="btn-limpar">Limpar campos</button>
+
+
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
