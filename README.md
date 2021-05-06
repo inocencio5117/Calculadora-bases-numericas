@@ -1,6 +1,6 @@
 # Conversor de Bases Numéricas em JS
 
-Esse projéto é um conversor de bases decimais, binárias, octais e hexadecimais
+Esse projeto é um conversor de bases decimais, binárias, octais e hexadecimais
 
 ## Motivação
 
