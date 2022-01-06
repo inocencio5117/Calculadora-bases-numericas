@@ -29,7 +29,7 @@ body {
     background-color: lightgray;
     outline: none;
     border: solid 1px ;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 .selecao {
     align-self: baseline;
@@ -39,6 +39,8 @@ body {
     align-self: baseline;
     margin: 15px;
     padding: 4px;
+    border-radius: 5px;
+    color: #000;
 }
 .btn-conv,
 .btn-limpar {
@@ -53,6 +55,8 @@ body {
     transition: all ease-in-out 300ms;
 }
 .btn-conv:hover,
-.btn-conv:active {
+.btn-conv:active,
+.btn-limpar:hover,
+.btn-limpar:active{
     background-color: #1A535C;
 }
